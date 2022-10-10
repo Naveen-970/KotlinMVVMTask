@@ -17,6 +17,7 @@ class EmployeeViewModel(private val employeeRepository: EmployeeRepository,
     private val TAG = "EmployeeViewModel"
     val inputName = MutableLiveData<String>()
     val inputEmail = MutableLiveData<String>()
+
     val saveOrUpdateButtonText = MutableLiveData<String>()
     val clearAllOrDeleteButtonText = MutableLiveData<String>()
     val getSavedEmployeesData = MutableLiveData<String>()
